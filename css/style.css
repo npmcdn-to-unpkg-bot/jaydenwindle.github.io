@@ -12,7 +12,7 @@
     padding-bottom: 30px;
     text-align: center;
     color: white;
-    /*height: 100vh;*/
+    height: 100vh;
     background: url(../images/bg-min.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -84,6 +84,11 @@
 
 .projects img {
     width: 100%;
+}
+
+.projects a, .projects a:hover, .projects a:focus {
+    color: white;
+    text-decoration: none;
 }
 
 /* Larger than mobile */
