@@ -234,6 +234,9 @@ section {
 
 .contact {
     margin-bottom: 0px;
+    -webkit-text-shadow: 0px 0px 44px rgba(0,0,0,0.62);
+    -moz-text-shadow: 0px 0px 44px rgba(0,0,0,0.62);
+    text-shadow: 0px 0px 44px rgba(0,0,0,0.62);
 }
 
 .contact h3 {
