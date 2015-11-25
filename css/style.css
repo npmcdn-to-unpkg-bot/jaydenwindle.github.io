@@ -94,7 +94,7 @@ section {
 
 /* Mobile */
 
-.work h6{
+.work h6 {
     margin-top: -15px;
     margin-bottom: 0px;
 }
@@ -108,7 +108,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     border: 4px solid white;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .projects a, .projects a:hover, .projects a:focus {
