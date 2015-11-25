@@ -10,6 +10,23 @@
 6. #EB9357
 */
 
+/* ========== Global ========== */
+
+body {
+    background: url(../images/bg-min.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+section {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
 /* ========== Typography ========== */
 
 /* ========== Hero ========== */
@@ -22,11 +39,7 @@
     text-align: center;
     color: white;
     /*height: 100vh;*/
-    background: url(../images/bg-min.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: transparent;
 }
 
 .hero .container {
@@ -81,14 +94,6 @@
 
 /* Mobile */
 
-.work {
-    text-align: center;
-    background-color:  rgb(210, 149, 96);
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
 .work h6{
     margin-top: -15px;
     margin-bottom: 0px;
@@ -130,13 +135,6 @@
 
 /* Mobile */
 
-.tech {
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
 .tech h1 {
     margin-bottom: 50px;
 }
@@ -176,19 +174,61 @@
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+/* ========== Tech ========== */
+
+/* Mobile */
+
+.resume h1 {
+    margin-bottom: 50px;
+}
+
+.job {
+    text-align: left;
+}
+
+.job h4, .job h5 {
+    margin-bottom: 5px;
+}
+
+.date {
+    text-align: right;
+}
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
 /* ========== Contact ========== */
 
 /* Mobile */
 
 .contact {
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    margin-bottom: 0px;
 }
 
-.contact h1 {
+.contact h3 {
     margin-bottom: 50px;
+}
+
+.contact a, .contact a:hover, .contact a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-link {
+    margin-bottom: 40px;
 }
 
 /* Larger than mobile */
