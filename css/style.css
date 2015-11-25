@@ -108,7 +108,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     border: 4px solid white;
-    border-radius: 3px;
+    border-radius: 3Apx;
 }
 
 .projects a, .projects a:hover, .projects a:focus {
@@ -157,6 +157,7 @@ section {
 .lang h6 {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 /* Larger than mobile */
