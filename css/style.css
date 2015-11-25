@@ -148,6 +148,11 @@ section {
     margin-bottom: 50px;
 }
 
+.tech hr {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
 .lang i {
     text-align: center;
     font-size: 80px;
