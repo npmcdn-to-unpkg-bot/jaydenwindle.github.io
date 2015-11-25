@@ -173,6 +173,10 @@ section {
     margin-bottom: 50px;
 }
 
+.lang div {
+    width: 50%;
+}
+
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
