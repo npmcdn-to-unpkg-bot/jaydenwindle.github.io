@@ -116,7 +116,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     border: 4px solid white;
-    border-radius: 3Apx;
+    border-radius: 3px;
 }
 
 .projects a, .projects a:hover, .projects a:focus {
@@ -196,16 +196,34 @@ section {
 
 /* Mobile */
 
+.resume {
+    padding-bottom: 60px;
+}
+
 .resume h1 {
     margin-bottom: 50px;
 }
 
 .job {
-    text-align: left;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 3px;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.job h4, .job h5 {
+.job h3, .job h5 {
     margin-bottom: 5px;
+}
+
+.job p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.job a, .job a:hover, .job a:focus {
+    color: white;
 }
 
 .date {
@@ -217,7 +235,12 @@ section {
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    .job p {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
