@@ -266,6 +266,10 @@ section {
     margin-bottom: 50px;
 }
 
+.contact p {
+    margin-bottom: 0;
+}
+
 .contact a, .contact a:hover, .contact a:focus {
     color: white;
     text-decoration: none;
