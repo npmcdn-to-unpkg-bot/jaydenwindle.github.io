@@ -5,6 +5,7 @@ subtitle:   "Built for #May1Reboot"
 date:       2016-04-28 10:00:00
 author:     "Jayden"
 header-img: "img/post-bg-01-min.jpg"
+comments:   true
 ---
 
 Hello friend! Welcome to my little corner of the web. I've just rebuilt this site for [#May1Reboot](http://www.may1reboot.com/). I hope you like what I've put together.
