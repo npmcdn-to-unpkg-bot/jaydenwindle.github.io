@@ -4,7 +4,7 @@ title:      "Gulp.js for WP/Foundation projects"
 date:       2016-05-04 21:30:00
 author:     "Jayden"
 header-img: "img/gulp-post-bg.jpg"
-comments:   false
+comments:   true
 ---
 
 It wasn't until very recently that I stumbled across the wonder that is Gulp.js. For too long my development workflow consisted of roughly the following:
