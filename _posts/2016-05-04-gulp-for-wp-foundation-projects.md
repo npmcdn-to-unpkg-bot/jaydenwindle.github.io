@@ -25,7 +25,7 @@ Needless to say, this was not the best method of development. But as a self-taug
 
 When I first encountered Gulp, it kind of blew my mind. It allowed me to combine many of the small tasks I had previously done by hand into a simple script and make them run automatically. All of a sudden I didn't need to reload the browser or upload files to a server manually, instead I could have Gulp take care of those things for me.
 
-I've quickly fallen in love with the flexibility and ease of using Gulp to manage tasks in my workflow. Over the course of the past few Foundation projects I've done, I've developed a standard gulpfile that I use to take care of both local and remote development. It supports quite a few useful features namely:
+I've quickly fallen in love with the flexibility and ease of using Gulp to manage tasks in my workflow. Over the course of the past few Foundation projects I've done, I've developed a standard gulpfile that I use to take care of both local and remote development. It supports quite a few useful features, namely:
 
 - a feature packed dev server
 - sass compilation (with sourcemaps and autoprefixer)
