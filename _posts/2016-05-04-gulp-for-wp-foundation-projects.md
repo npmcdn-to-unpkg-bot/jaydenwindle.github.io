@@ -37,6 +37,8 @@ I've included the file below for you to check out and maybe use in your own proj
 
 <script src="https://gist.github.com/jaydenwindle/71659e28d40cc8a56ce343b21eca5715.js"></script>
 
+<br>
+
 ### Further Reading
 [Intro to Gulp.js](http://www.sitepoint.com/introduction-gulp-js/) - Sitepoint  
 [Automate Your Tasks Easily with Gulp.js](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js) - Scotch  
